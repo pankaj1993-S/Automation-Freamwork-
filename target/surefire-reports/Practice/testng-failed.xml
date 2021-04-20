@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Practice]" parallel="tests">
+  <parameter name="Browser" value="Chrome"/>
+  <test name="TC001(failed)" parallel="tests">
+    <parameter name="Browser" value="Chrome"/>
+    <classes>
+      <class name="Tests.TC001">
+        <methods>
+          <include name="setReport"/>
+          <include name="setBrowser"/>
+          <include name="tc001"/>
+        </methods>
+      </class> <!-- Tests.TC001 -->
+    </classes>
+  </test> <!-- TC001(failed) -->
+</suite> <!-- Failed suite [Practice] -->

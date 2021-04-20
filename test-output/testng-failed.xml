@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Practice]">
+  <test thread-count="5" name="TC001(failed)">
+    <parameter name="Browser" value="Chrome"/>
+    <classes>
+      <class name="Tests.TC001">
+        <methods>
+          <include name="setReport"/>
+          <include name="tearDown"/>
+          <include name="setBrowser"/>
+          <include name="closeReport"/>
+          <include name="tc001" invocation-numbers="1"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Tests.TC001 -->
+    </classes>
+  </test> <!-- TC001(failed) -->
+</suite> <!-- Failed suite [Practice] -->

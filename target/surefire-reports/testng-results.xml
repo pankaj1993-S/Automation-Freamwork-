@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Practice" duration-ms="30418" started-at="2021-04-04T12:23:14Z" finished-at="2021-04-04T12:23:44Z">
+    <groups>
+    </groups>
+    <test name="TC001" duration-ms="30418" started-at="2021-04-04T12:23:14Z" finished-at="2021-04-04T12:23:44Z">
+      <class name="Tests.TC001">
+        <test-method status="PASS" signature="setReport()[pri:0, instance:Tests.TC001@224edc67]" name="setReport" is-config="true" duration-ms="232" started-at="2021-04-04T17:53:13Z" finished-at="2021-04-04T17:53:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReport -->
+        <test-method status="PASS" signature="setBrowser(java.lang.String)[pri:0, instance:Tests.TC001@224edc67]" name="setBrowser" is-config="true" duration-ms="17830" started-at="2021-04-04T17:53:14Z" finished-at="2021-04-04T17:53:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method status="PASS" signature="tc001(java.util.Map)[pri:0, instance:Tests.TC001@224edc67]" name="tc001" duration-ms="10183" started-at="2021-04-04T17:53:32Z" data-provider="TC001" finished-at="2021-04-04T17:53:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Execute=Yes}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc001 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.TC001@224edc67]" name="getResult" is-config="true" duration-ms="2" started-at="2021-04-04T17:53:42Z" finished-at="2021-04-04T17:53:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc001 status=SUCCESS method=TC001.tc001(java.util.Map)[pri:0, instance:Tests.TC001@224edc67] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Tests.TC001@224edc67]" name="tearDown" is-config="true" duration-ms="1594" started-at="2021-04-04T17:53:42Z" finished-at="2021-04-04T17:53:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="closeReport()[pri:0, instance:Tests.TC001@224edc67]" name="closeReport" is-config="true" duration-ms="305" started-at="2021-04-04T17:53:44Z" finished-at="2021-04-04T17:53:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeReport -->
+      </class> <!-- Tests.TC001 -->
+    </test> <!-- TC001 -->
+  </suite> <!-- Practice -->
+</testng-results>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<suite name="Practice" parallel="tests" thread-count="5">
+    <test name="TC001">
+        <parameter name="Browser" value="Chrome"/>
+        <classes>
+            <class name="Tests.TC001"/>
+        </classes>
+    </test>
+    
+</suite>
